@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slideshow.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+    <title>FOOD</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="jquery.bxslider.js"></script>
+    <script>
+        jQuery(window).load(function() {
+            var height = $(this).height();
+            $(".bx-viewport").css("height", '500px');
+        });
+
+
+        $(document).ready(function() {
+            var slider01 = $('#slider01').bxSlider({
+                controls: false,
+                pager: false,
+                auto: true,
+                onSlideAfter: function() {
+                    slider01.startAuto();
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1 class="top-title">food</h1>
+        <div class="slider-wrap">
+            <ul id="slider01">
+                <li><img src="./images/top1.jpg" alt="" /></li>
+                <li><img src="./images/top2.jpg" alt="" /></li>
+                <li><img src="./images/top3.jpg" alt="" /></li>
+                <li><img src="./images/top4.jpg" alt="" /></li>
+            </ul>
+        </div>
+
+    </header>
+    <!--
+    <header>
+        <h1 class="top-title">food</h1>
+    </header>
+-->
+    <div class="container">
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/cake.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/18 チョコケーキ</h3>
+                    <p>六花亭のチョコケーキ<br>上に乗ってるマカロン目当てで食べた</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/curry.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/25 カレーライス</h3>
+                    <p>茶寮のほうじ茶ポークのスパイシーカレー<br>お肉柔らかくて美味しかった</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/dango.jpg" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>11/6 みたらし団子</h3>
+                    <p>銀月のみたらし団子<br>出来立てが柔らかくて美味しい</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/egg.jpg" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>12/17 エッグベネディクト</h3>
+                    <p>？<br>初のエッグベネディクト！</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/egg2.jpg" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/19 ベーコン＆エッグの<br>ガレット</h3>
+                    <p>？<br>チーズがトロトロ</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/hamburg.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/19 パイ包みハンバーグ</h3>
+                    <p>FUSUのパイ包みハンバーグ<br>思ったよりも美味しくてびっくり</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/hamburg2.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/24 チーズハンバーグ</h3>
+                    <p>数奇屋バーグのチーズハンバーグ<br>安定の美味しさ</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/ice.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>1/28 アイス</h3>
+                    <p>PALETASのアイス<br>クリマッチャがすごい抹茶</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/ice2.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>7/3 アイス</h3>
+                    <p>コールドストーンのアイス<br>いちご美味しい</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/macaron.jpg" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/13 マカロン</h3>
+                    <p>？<br>多分人生で一番マカロンを食べた</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/meat.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/24 牛タン</h3>
+                    <p>利久の牛タン定食<br>とろろがとても美味しかった
+                    </p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/parfait.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/1 パフェ</h3>
+                    <p>baby faceのパフェ<br>オムライスを食べた後に３人で３０分かけて食べた！美味しかった</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/parfait2.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/25 抹茶パフェ</h3>
+                    <p>茶寮の抹茶パフェ<br>前々から行きたかったから行けて満足</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/quiche.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>3/19 キッシュ</h3>
+                    <p>Starbucksのキッシュ<br>意外とボリュームあってGood</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/ramen.jpg" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>11/21 ラーメン</h3>
+                    <p>？<br>かつおだしで味玉めっちゃうまい</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="image">
+            <figure>
+                <img class="zoom" src="./img/steak.JPG" alt="" width="200" height="200">
+                <figcaption>
+                    <h3>12/24 ステーキ</h3>
+                    <p>ひげのステーキ<br>美味しいけどとにかく多い！ナポリタンがお腹にたまる…</p>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    <footer>
+        &copy;2017 nissy
+    </footer>
+</body>
+
+</html>
